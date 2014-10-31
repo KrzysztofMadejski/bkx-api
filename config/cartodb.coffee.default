@@ -1,0 +1,3 @@
+
+module.exports.user = '' # Like in <user>.cartodb.com
+module.exports.api_key = '' # Copy "YOUR API KEY" from https://<user>.cartodb.com/your_apps

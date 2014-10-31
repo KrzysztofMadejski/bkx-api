@@ -1,0 +1,21 @@
+{
+  "name": "bkx-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cartodb": "^0.2.0",
+    "coffee-script": "^1.8.0",
+    "debug": "~2.0.0",
+    "express": "^4.10.1",
+    "httpsync": "0.0.8",
+    "jsonschema": "^1.0.0"
+  }
+}
