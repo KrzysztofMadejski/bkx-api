@@ -48,7 +48,7 @@ router.post '/', (req, res) ->
   client = new CartoDB config
 
   client.on 'connect', ->
-    # TODO use params to sanitize
+    # TODO use params to sanitize, drop mysql from dependencies
     client.query sql, {}, (err, data) ->
       if err
         ret = JSON.parse err

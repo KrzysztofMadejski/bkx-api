@@ -13,8 +13,9 @@
     "body-parser": "~1.8.1",
     "cartodb": "^0.2.0",
     "coffee-script": "^1.8.0",
-    "debug": "~2.0.0",
+    "debug": "^2.0.0",
     "express": "^4.10.1",
-    "jsonschema": "^1.0.0"
+    "jsonschema": "^1.0.0",
+    "mysql": "^2.5.2"
   }
 }
