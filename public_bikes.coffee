@@ -108,9 +108,6 @@ router.post '/', (req, res) ->
         pt = f.geometry.coordinates
         f = f.properties
 
-        if f.uniqueId == 'nextbike-215'
-          true
-
         if existing_ids[f.uniqueId]
           sql = "UPDATE public_bikes SET deleted = FALSE WHERE src_id = #{escapess f.uniqueId}"
           client.query sql, {}, (err,data) ->

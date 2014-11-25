@@ -1,1 +1,6 @@
+DEV ENV
 nodemon - to run and be notified of changes
+
+
+PRODUCTION ENV
+use https://github.com/Unitech/pm2 to keep process running

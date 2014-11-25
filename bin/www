@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// rename www to bkx-api, check configiraion (ie. config/cartodb, and server simple server if errors found)
+
 var debug = require('debug')('bkx-api');
 require('coffee-script/register');
 
