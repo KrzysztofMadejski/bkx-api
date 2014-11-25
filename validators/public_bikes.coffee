@@ -50,7 +50,7 @@ v._station_geojson = {
         stationName: {
           type: 'string'},
         totalDocks: {
-          type: 'integer'},
+          type: ['integer', 'null']}, #TODO do we allow nulls like that in optional elements?
         canParkIfNoDocksAvailable: {
           type: 'boolean'},
 
